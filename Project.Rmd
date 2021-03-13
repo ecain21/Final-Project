@@ -55,7 +55,7 @@ Although the researchers in this study did a phenomenal job at creating, designi
 ## **Demographics**
 
 ### **Age Breakdown**
-Before exploring the data set, it's important to first acknowledge that there is indeed a demographic imbalance. Of the 1,182 respondents, the research paper states that 84.3% of those subjects were 7 to 22 years of age with the mean age being 20.16 years old. This bar plot visually demonstrates that most of the data comes from college-aged respondents. As, the aim of this study was to research COVID-19 implications on the education, social life, and mental health of students, it makes sense that there are so many respondents in this age range.
+Before exploring the data set, it's important to first acknowledge that there is indeed a demographic imbalance. Of the 1,182 respondents, the research paper states that 84.3% of those subjects were 7 to 22 years of age with the mean age being 20.16 years old. This bar plot visually demonstrates that most of the data comes from college-aged respondents. As, the aim of this study was to research COVID-19 implications on the education, social life, and mental health of students, it makes sense that there are so many respondents in this age range. 
 
 ```{r}
 ggplotly(dataset %>% 
@@ -69,8 +69,8 @@ ggplotly(dataset %>%
         strip.text.x = element_blank()))
 ```
 
-Because of the demographic imbalance, we split the respondents into age groups. The groupings were based partly on what we considered to be a tradition age for education levels and partly based on life stages. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. These topics are big ideas to explore, and to get a more accurate picture of education and mental health we wanted to break the age down into groups by age level.
-
+These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:
+ 
 ```{r}
 dataset %>% 
   count(AgeCat) %>% 
