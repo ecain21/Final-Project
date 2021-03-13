@@ -20,13 +20,13 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
 ```{r libraries}
 library(tidyverse)
 library(lubridate)
-library(RColorBrewer)  
-library(plotly)        
-library(gganimate)     
+library(RColorBrewer)
+library(plotly)
+library(gganimate)
 library(ggtext)
 library(patchwork)
-library(gt)            
-theme_set(theme_minimal()) 
+library(gt)
+theme_set(theme_minimal())
 ```
 
 ```{r}
@@ -40,7 +40,7 @@ dataset <- read_csv("Data.csv") %>%
 
 ### **COVID-19 in the United States**
 
-Our group was interested in exploring the repercussions of the COVID-19 pandemic on young people, and especially students. In initial research, we found that within the United States, the rise of remote learning has called for additional attention on students’ mental health as they experience a lack of social interaction, less direct support from teachers, and difficulty focusing at home. Aside from academics, the mental well-being of all youth in general has also been negatively affected as children and their families are asked to self-quarantine and in some cases, leave their jobs. Health experts are now concerned about the mental health conditions for our youth in the long run. They believe that experiencing and living in these tough situations for an extended amount of time can cause children to have anxiety and depression which is why we need to start paying close attention to negative impacts of COVID-19 on mental health.  For more information regarding this issue, you may read the article provided in this [link](https://www.writingcity.com/how-remote-learning-affects-students-mental-health.html).  
+Our group was interested in exploring the repercussions of the COVID-19 pandemic on young people, and especially students. In initial research, we found that within the United States, the rise of remote learning has called for additional attention on students’ mental health as they experience a lack of social interaction, less direct support from teachers, and difficulty focusing at home. Aside from academics, the mental well-being of all youth in general has also been negatively affected as children and their families are asked to self-quarantine and in some cases, leave their jobs. Health experts are now concerned about the mental health conditions for our youth in the long run. They believe that experiencing and living in these tough situations for an extended amount of time can cause children to have anxiety and depression which is why we need to start paying close attention to negative impacts of COVID-19 on mental health. For more information regarding this issue, you may read the article provided in this [link](https://www.writingcity.com/how-remote-learning-affects-students-mental-health.html).
 
 ### **Data Collection**
 
@@ -55,7 +55,10 @@ Although the researchers in this study did a phenomenal job at creating, designi
 ## **Demographics**
 
 ### **Age Breakdown**
+
 Before exploring the data set, it's important to first acknowledge that there is indeed a demographic imbalance. Of the 1,182 respondents, the research paper states that 84.3% of those subjects were 7 to 22 years of age with the mean age being 20.16 years old. This bar plot visually demonstrates that most of the data comes from college-aged respondents. As, the aim of this study was to research COVID-19 implications on the education, social life, and mental health of students, it makes sense that there are so many respondents in this age range. 
+
+<br>
 
 ```{r}
 ggplotly(dataset %>% 
@@ -68,6 +71,8 @@ ggplotly(dataset %>%
         plot.title.position= "plot", 
         strip.text.x = element_blank()))
 ```
+
+<br>
 
 These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:
  
@@ -101,16 +106,15 @@ ggplotly(dataset %>%
   theme(panel.grid = element_blank(), 
         plot.title.position= "plot", 
         strip.text.x = element_blank()))
-    
 ```
 
-
+<br>
 
 ### **Class Time**
 
-This plot compares the median number of hours spent in class by different age groups. For the sole purpose of this study, it is important to draw attention to how many hours students are spending sitting in front of a screen each day. From this plot, we can observe that respondents within the 7-13 and 14-18 age-groups spend the most time in class per day. The researchers emphasized that different variables (time spent on online class, self-study,fitness, sleep, and social media) changes with different age distributions. Average time spent in class and age-group was one of the relationships that were inversely proportional; As age-group value increases, the average number of hours spent online starts to decrease.  
+This plot compares the median number of hours spent in class by different age groups. For the sole purpose of this study, it is important to draw attention to how many hours students are spending sitting in front of a screen each day. From this plot, we can observe that respondents within the 7-13 and 14-18 age-groups spend the most time in class per day. The researchers emphasized that different variables (time spent on online class, self-study,fitness, sleep, and social media) changes with different age distributions. Average time spent in class and age-group was one of the relationships that were inversely proportional; As age-group value increases, the average number of hours spent online starts to decrease.
 
-<p>&nbsp;</p>
+<br>
 
 ```{r}
 dataset %>%
@@ -130,11 +134,13 @@ dataset %>%
 
 ## **Social Media Use, Sleep and Mental Health Outcomes **
 
-In a recent study examining the relationship between sleep and mental health and sleep in college students, researchers found that different mental health symptoms had different patterns of association with poor sleep. They found an association between anxiety and depression symptoms and sleep, but found that mental health conditions only affected certain effects of poor sleep. This study also emphasizes that the effects of poor mental health could be exacerbated by inadequate sleeping hours or poor sleep. Previous research has shown that improving sleep for students may also improve mood. (Becker et al., 2018).  
+In a recent study examining the relationship between sleep and mental health and sleep in college students, researchers found that different mental health symptoms had different patterns of association with poor sleep. They found an association between anxiety and depression symptoms and sleep, but found that mental health conditions only affected certain effects of poor sleep. This study also emphasizes that the effects of poor mental health could be exacerbated by inadequate sleeping hours or poor sleep. Previous research has shown that improving sleep for students may also improve mood. (Becker et al., 2018).
 
-A correlational study from 2018 examined the association of outcomes of social media use in young adults such as general mental health symptoms, loneliness, suicidal thoughts, and a change in empathy, and found that concerns regarding social media use in young adults may be misplaced. Though organizations such as the Royal Society for public health have reported evidence for links between social media use and poor mental health, this particular study did not find proof of an association. This study pointed out the difference between use of social media on mental health effects. If social media was used for negative social comparison this could lead to depression, but that authentic self-presentation could be associated with positive mental health effects. The 2018 study also stated that time spent with social media or exposure alone is not a good indicator of mental health, but instead that how the time was spent is better for analysis and identifying problems (Berryman, Ferguson, and Negy, 2018).  
+A correlational study from 2018 examined the association of outcomes of social media use in young adults such as general mental health symptoms, loneliness, suicidal thoughts, and a change in empathy, and found that concerns regarding social media use in young adults may be misplaced. Though organizations such as the Royal Society for public health have reported evidence for links between social media use and poor mental health, this particular study did not find proof of an association. This study pointed out the difference between use of social media on mental health effects. If social media was used for negative social comparison this could lead to depression, but that authentic self-presentation could be associated with positive mental health effects. The 2018 study also stated that time spent with social media or exposure alone is not a good indicator of mental health, but instead that how the time was spent is better for analysis and identifying problems (Berryman, Ferguson, and Negy, 2018).
 
-In the graph below we seek to examine the relationship with between time spent on social media per week and time spent sleeping per week as indicators for mental health. Due to the fact that sleep disturbance can often be an indicator or association with poor mental health outcomes, we chose to examine how these two variables interacted, and to see if this differed by age.  
+In the graph below we seek to examine the relationship with between time spent on social media per week and time spent sleeping per week as indicators for mental health. Due to the fact that sleep disturbance can often be an indicator or association with poor mental health outcomes, we chose to examine how these two variables interacted, and to see if this differed by age.
+
+<br>
 
 ```{r, eval=FALSE}
 sleepmedia_anim <- dataset %>% 
@@ -166,17 +172,15 @@ animate(sleepmedia_anim, duration = 20)
 anim_save("sleepmedia_anim.gif")
 ```
 
-<p>&nbsp;</p>
-
 ```{r}
 knitr::include_graphics("sleepmedia_anim.gif")
 ```
 
-<p>&nbsp;</p>
+<br>
 
 For most of the age categories there may be a slight negative association between hours of sleep and hours of social media use. It appears that while hours of sleep go up, hours of social media use may slightly go down. For the age category 19 years - 23 years, there appears to be no association at all between amount of sleep and amount of social media use. In addition, the association is not clear for any age group, leading us to believe that the results from the COVID-19 dataset that we are using most likely follow the trnd that the 2018 study by Berryman, Ferguson, and Negy suggested, which is that there is limited proof between social media and mental health effects. It is also worth noting that difference in amount of time sleeping is not the best indicator of mental health outcomes, and another measurement like an increase anxiety or depression symptoms may be a better indicator that was not included in the data set that we used.
 
-<p>&nbsp;</p>
+<br>
 
 ```{r}
 dataset %>% 
@@ -195,15 +199,15 @@ dataset %>%
         panel.grid = element_blank(), 
         plot.title.position= "plot",
         legend.position = "top")
- 
 ```
+
+<br>
 
 With the pandemic, students are forced to quarantine at home which results in less face-to-face interactions and more time on social media (if it's accessible to them). In the graph below, we used the data set to see if there is a strong relationship between the average time spent on social media per day and whether or not they feel connected to their loved ones. Interestingly, the plot shows that between the different age groups, the results vary, and the average time spent on social media does not exactly determine whether or not there is a connection with loved ones. This can demonstrate that the connections made with loved ones do not merely come from social media interactions, nor are they a result of having to stay home with loved ones everyday. Indeed, that connection can be a result of anything depending on the individual.
 
-
 ## **Outcomes and Effects of COVID-19**
 
-<p>&nbsp;</p>
+<br>
 
 ```{r}
 dataset %>%
@@ -216,11 +220,11 @@ dataset %>%
              n = "")
 ```
 
-<p>&nbsp;</p>
+<br>
 
-We were interested to examine what the survey respondents missed the most during the COVID-19 pandemic, and found that throughout the many survey responses, eating outside, friends and relatives, roaming around freely, school/college,  and traveling were the most common responses to the question "What do you miss the most?". We observed that most the most common responses were also what we, as college students,  missed in the United States. It was interesting that school and/or college was the most common answer, but this answer makes sense when considering the demographics of the responses and the most common ages for response, which was school and college aged people. 
+We were interested to examine what the survey respondents missed the most during the COVID-19 pandemic, and found that throughout the many survey responses, eating outside, friends and relatives, roaming around freely, school/college, and traveling were the most common responses to the question "What do you miss the most?". We observed that most the most common responses were also what we, as college students, missed in the United States. It was interesting that school and/or college was the most common answer, but this answer makes sense when considering the demographics of the responses and the most common ages for response, which was school and college aged people. 
 
-<p>&nbsp;</p>
+<br>
 
 ```{r}
 dataset %>% 
@@ -243,11 +247,11 @@ dataset %>%
         plot.title.position= "plot")
 ```
 
-<p>&nbsp;</p>
+<br>
 
 It doesn't appear that region impacted what respondents missed. We did anticipate this because, as mentioned, many of the things people missed in this survey were things that we missed. However, because our demographic is inbalanced, we were curious to look more closely at the age groupings we made and see how students responded to this question compared to other in their same age range.
 
-<p>&nbsp;</p>
+<br>
 
 ```{r}
 #within AgeCat=7-13, what percentage said what:
@@ -274,7 +278,10 @@ ag1 <- dataset %>%
         panel.grid = element_blank(), 
         plot.title.position= "plot")
 
+
+
 #within AgeCat=14-18, what percentage said what:
+
 ag2 <- dataset %>% 
   drop_na() %>% 
   mutate(`What respondents miss the most` = fct_lump_n(`What you miss the most`, 5)) %>%
@@ -294,7 +301,10 @@ ag2 <- dataset %>%
         plot.title.position= "plot") +
   scale_x_discrete(labels= listlabels)
 
+
+
 #within AgeCat=19-23, what percentage said what:
+
 ag3 <- dataset %>% 
   drop_na() %>% 
   mutate(`What respondents miss the most` = fct_lump_n(`What you miss the most`, 5)) %>%
@@ -314,7 +324,10 @@ ag3 <- dataset %>%
         plot.title.position= "plot") +
   scale_x_discrete(labels= listlabels)
 
+
+
 #within AgeCat=24-33, what percentage said what:
+
 ag4 <- dataset %>% 
   drop_na() %>% 
   mutate(`What respondents miss the most` = fct_lump_n(`What you miss the most`, 5)) %>%
@@ -334,7 +347,10 @@ ag4 <- dataset %>%
         plot.title.position= "plot") +
   scale_x_discrete(labels= listlabels)
 
+
+
 #within AgeCat=34-45, what percentage said what:
+
 ag5 <- dataset %>% 
   drop_na() %>% 
   mutate(`What respondents miss the most` = fct_lump_n(`What you miss the most`, 5)) %>%
@@ -354,7 +370,10 @@ ag5 <- dataset %>%
         plot.title.position= "plot") +
   scale_x_discrete(labels= listlabels)
 
+
+
 #within AgeCat=46-60, what percentage said what:
+
 ag6 <- dataset %>% 
   drop_na() %>% 
   mutate(`What respondents miss the most` = fct_lump_n(`What you miss the most`, 5)) %>%
@@ -375,14 +394,12 @@ ag6 <- dataset %>%
   scale_x_discrete(labels= listlastlabels)
 ```
 
-
 ```{r, fig.width=13, fig.height=11}
 (ag1|ag2) / (ag3|ag4) / (ag5 |ag6) +
   plot_annotation("What Respondents Miss the Most: Proportionally by Age Group")
 ```
 
 ## **Conclusion**
-
 
 ### **Major Findings** 
 
@@ -393,6 +410,7 @@ ag6 <- dataset %>%
 * Aspects of regular life that COVID-19 changed or took away were missed by different ages in different ways, and also varied by region. 
 
 ### **Takeaways**
-In both the United States and India, research data and analysis concludes that the COVID-19 pandemic has indeed impacted students’ mental health and education. Both regions suggest that there are measures we need to begin taking as well as several aspects in our public education that calls for improvisation. It is a global responsibility for authorities, educators, and parents to unleash the potential of our youth by providing them a safe environment and a promising education system.  
 
-There are a few suggestions for educators and institutions that we agreed with and believe should be applied globally once the pandemic ends. First off, educators all over the world should acknowledge the major role that they have within every single students’ mental and physical well-being. Especially at a time like this, there are many steps that teachers can take to help lessen stress and anxiety for their students such as individually checking in with students to chat about aspects of their life outside of academics. Additionally, authorities should start to invest more in online education through further research to improve it for the future. This way, if another global pandemic were to occur in the near future,  we can prevent such issues from reoccurring and thus provide our students with an improved online education system. Teachers will need proper training for skills in remote teaching. Last but definitely not least, the researches suggested that we can better provide mental and emotional support for students by improving healthcare management.
+In both the United States and India, research data and analysis concludes that the COVID-19 pandemic has indeed impacted students’ mental health and education. Both regions suggest that there are measures we need to begin taking as well as several aspects in our public education that calls for improvisation. It is a global responsibility for authorities, educators, and parents to unleash the potential of our youth by providing them a safe environment and a promising education system.
+
+There are a few suggestions for educators and institutions that we agreed with and believe should be applied globally once the pandemic ends. First off, educators all over the world should acknowledge the major role that they have within every single students’ mental and physical well-being. Especially at a time like this, there are many steps that teachers can take to help lessen stress and anxiety for their students such as individually checking in with students to chat about aspects of their life outside of academics. Additionally, authorities should start to invest more in online education through further research to improve it for the future. This way, if another global pandemic were to occur in the near future, we can prevent such issues from reoccurring and thus provide our students with an improved online education system. Teachers will need proper training for skills in remote teaching. Last but definitely not least, the researches suggested that we can better provide mental and emotional support for students by improving healthcare management.
