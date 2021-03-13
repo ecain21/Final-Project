@@ -147,7 +147,7 @@ sleepmedia_anim <- dataset %>%
   geom_jitter() +
   labs(y = "", 
        x = "Hours of Sleep", 
-       title = "Amount of Sleep and Corresponding Social Media Use in Hours by Age Category", 
+       title = "Amount of Sleep and Corresponding Social Media Use in Hours\n by Age Category", 
        subtitle = "Ages: {closest_state}") +
   transition_states(AgeCat)+
   theme(axis.line = element_blank(), 
