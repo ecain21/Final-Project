@@ -26,7 +26,7 @@ library(gganimate)
 library(ggtext)
 library(patchwork)
 library(gt)            
-theme_set(theme_minimal())
+theme_set(theme_minimal()) 
 ```
 
 ```{r}
