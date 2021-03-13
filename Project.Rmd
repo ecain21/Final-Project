@@ -414,10 +414,23 @@ ag6 <- dataset %>%
 
 * Time spent in class did not have a significant effect on connection with loved ones, but varied by age.
 
-* Aspects of regular life that COVID-19 changed or took away were missed by different ages in different ways. For example, 7-13 year-olds most missed school while those aged 46-59 missed travel. 
+* Aspects of regular life that COVID-19 changed or took away were missed by different ages in different ways. For example, 7-13 year-olds most missed school while those aged 34-45 missed travel. 
 
 ### **Takeaways**
 
 In both the United States and India, research data and analysis concludes that the COVID-19 pandemic has indeed impacted students’ mental health and education. Both regions suggest that there are measures we need to begin taking as well as several aspects of our public education that call for improvisation. It is a global responsibility for authorities, educators, and parents to nurture the potential of our youth by providing them a safe environment and a supportive education system.
 
 There are a few suggestions for educators and institutions that we agreed with and believe should be applied globally once the pandemic ends. First off, educators all over the world should acknowledge the major role that they have within every single students’ mental and physical well-being. Especially at a time like this, there are many steps that teachers can take to help lessen stress and anxiety for their students; one such measure of support is individually checking in with students to chat about aspects of their life outside of academics. Additionally, authorities should begin investing more in online education and conduct further research to improve it. This way, if another global pandemic is to occur in the near future, we can minimize or prevent the disruption in academic life, avoid COVID-19 related issues from reoccurring, and thus provide our students with an improved online education system. Teachers will need proper training for skills in remote teaching. Last but definitely not least, the research suggested that we can better provide mental and emotional support for students by improving health care management overall.
+
+<br>
+
+#### **References:**
+
+
+Becker, S. P., Jarrett, M. A., Luebbe, A. M., Garner, A. A., Burns, G. L., & Kofler, M. J. (2018). Sleep in a large, multi-university sample of college students: sleep problem prevalence, sex differences, and mental health correlates. Sleep health, 4(2), 174-181.
+
+Berryman, C., Ferguson, C. J., & Negy, C. (2018). Social media use and mental health among young adults. Psychiatric quarterly, 89(2), 307-314.
+
+Chaturvedi, Kunal, et al. “COVID-19 and Its Impact on Education, Social Life and Mental Health of Students: A Survey.” Children and Youth Services Review, vol. 121, 27 Dec. 2020, p. 105866., doi:10.1016/j.childyouth.2020.105866. 
+
+WritingCity. “How Remote Learning Affects Students' Mental Health.” WritingCity, 9 Oct. 2020, www.writingcity.com/how-remote-learning-affects-students-mental-health.html. 
