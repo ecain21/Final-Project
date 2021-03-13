@@ -45,8 +45,8 @@ Before exploring the data set, it's important to first acknowledge that there is
 
 
 ```{=html}
-<div id="htmlwidget-186eec60f1d92abc78d7" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-186eec60f1d92abc78d7">{"x":{"data":[{"orientation":"v","width":[0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.900000000000002,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,42,43,44,45,46,50,52,59],"y":[1,2,2,4,6,29,48,48,37,67,58,66,138,211,188,93,44,23,12,12,6,7,4,8,4,10,5,10,4,5,2,4,1,14,1,2,1,1,1,1,1,1],"text":["count:   1<br />Age:  7","count:   2<br />Age:  8","count:   2<br />Age:  9","count:   4<br />Age: 10","count:   6<br />Age: 11","count:  29<br />Age: 12","count:  48<br />Age: 13","count:  48<br />Age: 14","count:  37<br />Age: 15","count:  67<br />Age: 16","count:  58<br />Age: 17","count:  66<br />Age: 18","count: 138<br />Age: 19","count: 211<br />Age: 20","count: 188<br />Age: 21","count:  93<br />Age: 22","count:  44<br />Age: 23","count:  23<br />Age: 24","count:  12<br />Age: 25","count:  12<br />Age: 26","count:   6<br />Age: 27","count:   7<br />Age: 28","count:   4<br />Age: 29","count:   8<br />Age: 30","count:   4<br />Age: 31","count:  10<br />Age: 32","count:   5<br />Age: 33","count:  10<br />Age: 34","count:   4<br />Age: 35","count:   5<br />Age: 36","count:   2<br />Age: 37","count:   4<br />Age: 38","count:   1<br />Age: 39","count:  14<br />Age: 40","count:   1<br />Age: 42","count:   2<br />Age: 43","count:   1<br />Age: 44","count:   1<br />Age: 45","count:   1<br />Age: 46","count:   1<br />Age: 50","count:   1<br />Age: 52","count:   1<br />Age: 59"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"rgba(153,112,171,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Age","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[3.905,62.095],"tickmode":"array","ticktext":["5","10","15","20","25","30","35","40","45","50","55","60"],"tickvals":[5,10,15,20,25,30,35,40,45,50,55,60],"categoryorder":"array","categoryarray":["5","10","15","20","25","30","35","40","45","50","55","60"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-10.55,221.55],"tickmode":"array","ticktext":["0","50","100","150","200"],"tickvals":[0,50,100,150,200],"categoryorder":"array","categoryarray":["0","50","100","150","200"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"302029d54fd7":{"x":{},"type":"bar"}},"cur_data":"302029d54fd7","visdat":{"302029d54fd7":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b0e314be4adf88e21231" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b0e314be4adf88e21231">{"x":{"data":[{"orientation":"v","width":[0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.900000000000002,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,42,43,44,45,46,50,52,59],"y":[1,2,2,4,6,29,48,48,37,67,58,66,138,211,188,93,44,23,12,12,6,7,4,8,4,10,5,10,4,5,2,4,1,14,1,2,1,1,1,1,1,1],"text":["count:   1<br />Age:  7","count:   2<br />Age:  8","count:   2<br />Age:  9","count:   4<br />Age: 10","count:   6<br />Age: 11","count:  29<br />Age: 12","count:  48<br />Age: 13","count:  48<br />Age: 14","count:  37<br />Age: 15","count:  67<br />Age: 16","count:  58<br />Age: 17","count:  66<br />Age: 18","count: 138<br />Age: 19","count: 211<br />Age: 20","count: 188<br />Age: 21","count:  93<br />Age: 22","count:  44<br />Age: 23","count:  23<br />Age: 24","count:  12<br />Age: 25","count:  12<br />Age: 26","count:   6<br />Age: 27","count:   7<br />Age: 28","count:   4<br />Age: 29","count:   8<br />Age: 30","count:   4<br />Age: 31","count:  10<br />Age: 32","count:   5<br />Age: 33","count:  10<br />Age: 34","count:   4<br />Age: 35","count:   5<br />Age: 36","count:   2<br />Age: 37","count:   4<br />Age: 38","count:   1<br />Age: 39","count:  14<br />Age: 40","count:   1<br />Age: 42","count:   2<br />Age: 43","count:   1<br />Age: 44","count:   1<br />Age: 45","count:   1<br />Age: 46","count:   1<br />Age: 50","count:   1<br />Age: 52","count:   1<br />Age: 59"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"rgba(153,112,171,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Age","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[3.905,62.095],"tickmode":"array","ticktext":["5","10","15","20","25","30","35","40","45","50","55","60"],"tickvals":[5,10,15,20,25,30,35,40,45,50,55,60],"categoryorder":"array","categoryarray":["5","10","15","20","25","30","35","40","45","50","55","60"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-10.55,221.55],"tickmode":"array","ticktext":["0","50","100","150","200"],"tickvals":[0,50,100,150,200],"categoryorder":"array","categoryarray":["0","50","100","150","200"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"54385c13621a":{"x":{},"type":"bar"}},"cur_data":"54385c13621a","visdat":{"54385c13621a":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -60,7 +60,7 @@ These topics of education, social life, and mental health are big ideas to explo
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#yomarzkyxp .gt_table {
+#qdukicsras .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -85,7 +85,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-left-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_heading {
+#qdukicsras .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -97,7 +97,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_title {
+#qdukicsras .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -107,7 +107,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-bottom-width: 0;
 }
 
-#yomarzkyxp .gt_subtitle {
+#qdukicsras .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -117,13 +117,13 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-width: 0;
 }
 
-#yomarzkyxp .gt_bottom_border {
+#qdukicsras .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_col_headings {
+#qdukicsras .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -138,7 +138,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_col_heading {
+#qdukicsras .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -158,7 +158,7 @@ These topics of education, social life, and mental health are big ideas to explo
   overflow-x: hidden;
 }
 
-#yomarzkyxp .gt_column_spanner_outer {
+#qdukicsras .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -170,15 +170,15 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 4px;
 }
 
-#yomarzkyxp .gt_column_spanner_outer:first-child {
+#qdukicsras .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#yomarzkyxp .gt_column_spanner_outer:last-child {
+#qdukicsras .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#yomarzkyxp .gt_column_spanner {
+#qdukicsras .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -190,7 +190,7 @@ These topics of education, social life, and mental health are big ideas to explo
   width: 100%;
 }
 
-#yomarzkyxp .gt_group_heading {
+#qdukicsras .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -212,7 +212,7 @@ These topics of education, social life, and mental health are big ideas to explo
   vertical-align: middle;
 }
 
-#yomarzkyxp .gt_empty_group_heading {
+#qdukicsras .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -227,15 +227,15 @@ These topics of education, social life, and mental health are big ideas to explo
   vertical-align: middle;
 }
 
-#yomarzkyxp .gt_from_md > :first-child {
+#qdukicsras .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#yomarzkyxp .gt_from_md > :last-child {
+#qdukicsras .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#yomarzkyxp .gt_row {
+#qdukicsras .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -254,7 +254,7 @@ These topics of education, social life, and mental health are big ideas to explo
   overflow-x: hidden;
 }
 
-#yomarzkyxp .gt_stub {
+#qdukicsras .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -266,7 +266,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-left: 12px;
 }
 
-#yomarzkyxp .gt_summary_row {
+#qdukicsras .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -276,7 +276,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 5px;
 }
 
-#yomarzkyxp .gt_first_summary_row {
+#qdukicsras .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -286,7 +286,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_grand_summary_row {
+#qdukicsras .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -296,7 +296,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 5px;
 }
 
-#yomarzkyxp .gt_first_grand_summary_row {
+#qdukicsras .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -306,11 +306,11 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_striped {
+#qdukicsras .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#yomarzkyxp .gt_table_body {
+#qdukicsras .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -319,7 +319,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-bottom-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_footnotes {
+#qdukicsras .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -333,13 +333,13 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_footnote {
+#qdukicsras .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#yomarzkyxp .gt_sourcenotes {
+#qdukicsras .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -353,46 +353,46 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#yomarzkyxp .gt_sourcenote {
+#qdukicsras .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#yomarzkyxp .gt_left {
+#qdukicsras .gt_left {
   text-align: left;
 }
 
-#yomarzkyxp .gt_center {
+#qdukicsras .gt_center {
   text-align: center;
 }
 
-#yomarzkyxp .gt_right {
+#qdukicsras .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#yomarzkyxp .gt_font_normal {
+#qdukicsras .gt_font_normal {
   font-weight: normal;
 }
 
-#yomarzkyxp .gt_font_bold {
+#qdukicsras .gt_font_bold {
   font-weight: bold;
 }
 
-#yomarzkyxp .gt_font_italic {
+#qdukicsras .gt_font_italic {
   font-style: italic;
 }
 
-#yomarzkyxp .gt_super {
+#qdukicsras .gt_super {
   font-size: 65%;
 }
 
-#yomarzkyxp .gt_footnote_marks {
+#qdukicsras .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="yomarzkyxp" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="qdukicsras" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="3" class="gt_heading gt_title gt_font_normal" style>Respondents by Age Group</th>
@@ -460,8 +460,8 @@ Just as we observed with the previous plot, the number of respondents per region
 
 
 ```{=html}
-<div id="htmlwidget-2fdb9739d4a90f0f831c" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-2fdb9739d4a90f0f831c">{"x":{"data":[{"orientation":"v","width":[0.9,0.9],"base":[0,0],"x":[1,2],"y":[721,461],"text":["count: 721<br />Region: Delhi-NCR","count: 461<br />Region: Outside Delhi-NCR"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Region","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,2.6],"tickmode":"array","ticktext":["Delhi-NCR","Outside Delhi-NCR"],"tickvals":[1,2],"categoryorder":"array","categoryarray":["Delhi-NCR","Outside Delhi-NCR"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-36.05,757.05],"tickmode":"array","ticktext":["0","200","400","600"],"tickvals":[0,200,400,600],"categoryorder":"array","categoryarray":["0","200","400","600"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"3020275d4a8e":{"x":{},"type":"bar"}},"cur_data":"3020275d4a8e","visdat":{"3020275d4a8e":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-80927a5182e43185d788" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-80927a5182e43185d788">{"x":{"data":[{"orientation":"v","width":[0.9,0.9],"base":[0,0],"x":[1,2],"y":[721,461],"text":["count: 721<br />Region: Delhi-NCR","count: 461<br />Region: Outside Delhi-NCR"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Region","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,2.6],"tickmode":"array","ticktext":["Delhi-NCR","Outside Delhi-NCR"],"tickvals":[1,2],"categoryorder":"array","categoryarray":["Delhi-NCR","Outside Delhi-NCR"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-36.05,757.05],"tickmode":"array","ticktext":["0","200","400","600"],"tickvals":[0,200,400,600],"categoryorder":"array","categoryarray":["0","200","400","600"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"5438123348dc":{"x":{},"type":"bar"}},"cur_data":"5438123348dc","visdat":{"5438123348dc":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -516,7 +516,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xzujppdmfj .gt_table {
+#rcerfxiuux .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -541,7 +541,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-left-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_heading {
+#rcerfxiuux .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -553,7 +553,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-right-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_title {
+#rcerfxiuux .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -563,7 +563,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-bottom-width: 0;
 }
 
-#xzujppdmfj .gt_subtitle {
+#rcerfxiuux .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -573,13 +573,13 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-top-width: 0;
 }
 
-#xzujppdmfj .gt_bottom_border {
+#rcerfxiuux .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_col_headings {
+#rcerfxiuux .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -594,7 +594,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-right-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_col_heading {
+#rcerfxiuux .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -614,7 +614,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   overflow-x: hidden;
 }
 
-#xzujppdmfj .gt_column_spanner_outer {
+#rcerfxiuux .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -626,15 +626,15 @@ During the pandemic, students have been forced to quarantine at home which has r
   padding-right: 4px;
 }
 
-#xzujppdmfj .gt_column_spanner_outer:first-child {
+#rcerfxiuux .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xzujppdmfj .gt_column_spanner_outer:last-child {
+#rcerfxiuux .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xzujppdmfj .gt_column_spanner {
+#rcerfxiuux .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -646,7 +646,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   width: 100%;
 }
 
-#xzujppdmfj .gt_group_heading {
+#rcerfxiuux .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -668,7 +668,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   vertical-align: middle;
 }
 
-#xzujppdmfj .gt_empty_group_heading {
+#rcerfxiuux .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -683,15 +683,15 @@ During the pandemic, students have been forced to quarantine at home which has r
   vertical-align: middle;
 }
 
-#xzujppdmfj .gt_from_md > :first-child {
+#rcerfxiuux .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xzujppdmfj .gt_from_md > :last-child {
+#rcerfxiuux .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xzujppdmfj .gt_row {
+#rcerfxiuux .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -710,7 +710,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   overflow-x: hidden;
 }
 
-#xzujppdmfj .gt_stub {
+#rcerfxiuux .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -722,7 +722,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   padding-left: 12px;
 }
 
-#xzujppdmfj .gt_summary_row {
+#rcerfxiuux .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -732,7 +732,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   padding-right: 5px;
 }
 
-#xzujppdmfj .gt_first_summary_row {
+#rcerfxiuux .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -742,7 +742,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-top-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_grand_summary_row {
+#rcerfxiuux .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -752,7 +752,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   padding-right: 5px;
 }
 
-#xzujppdmfj .gt_first_grand_summary_row {
+#rcerfxiuux .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -762,11 +762,11 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-top-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_striped {
+#rcerfxiuux .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xzujppdmfj .gt_table_body {
+#rcerfxiuux .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -775,7 +775,7 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-bottom-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_footnotes {
+#rcerfxiuux .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -789,13 +789,13 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-right-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_footnote {
+#rcerfxiuux .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#xzujppdmfj .gt_sourcenotes {
+#rcerfxiuux .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -809,46 +809,46 @@ During the pandemic, students have been forced to quarantine at home which has r
   border-right-color: #D3D3D3;
 }
 
-#xzujppdmfj .gt_sourcenote {
+#rcerfxiuux .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#xzujppdmfj .gt_left {
+#rcerfxiuux .gt_left {
   text-align: left;
 }
 
-#xzujppdmfj .gt_center {
+#rcerfxiuux .gt_center {
   text-align: center;
 }
 
-#xzujppdmfj .gt_right {
+#rcerfxiuux .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xzujppdmfj .gt_font_normal {
+#rcerfxiuux .gt_font_normal {
   font-weight: normal;
 }
 
-#xzujppdmfj .gt_font_bold {
+#rcerfxiuux .gt_font_bold {
   font-weight: bold;
 }
 
-#xzujppdmfj .gt_font_italic {
+#rcerfxiuux .gt_font_italic {
   font-style: italic;
 }
 
-#xzujppdmfj .gt_super {
+#rcerfxiuux .gt_super {
   font-size: 65%;
 }
 
-#xzujppdmfj .gt_footnote_marks {
+#rcerfxiuux .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="xzujppdmfj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="rcerfxiuux" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="2" class="gt_heading gt_title gt_font_normal" style>What Respondents Miss Most</th>
