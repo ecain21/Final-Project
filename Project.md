@@ -31,7 +31,7 @@ We intended to look for data that investigated the effects of COVID-19 in the Un
 
 ### **Implications in India**
 
-Data was collected from subjects living in the National Capital Region (NCR) which encompasses both Delhi and its surrounding area, as well as outside of this region. In this study, researchers looked at different age-groups of a total of 1,182 subjects, ages ranging from 7 to 59 years old, and how several aspects of their lives were affected after the lockdown. Additionally, they recorded the different coping mechanisms adopted due to such sudden changes. The various variables such as learning hours for online classes and self-study, duration of sleep, time spent on fitness and sleep were recorded and analyzed as factors related to mental health. Although the effect on students’ education, social life, physical health, and mental well-being was expected, this research suggests that the public should take necessary measures to prevent psychological problems and improve students’ experiences in and outside of academics, for our current results are not meeting the expectations of the initial government policies. For specific details on the demographics, objectives, and methods of this study, please read the research paper linked [here](https://www.researchgate.net/publication/347935769_COVID-19_and_its_impact_on_education_social_life_and_mental_health_of_students_A_Survey). 
+Data was collected from subjects living in the National Capital Region (NCR) which encompasses both Delhi and its surrounding area, as well as outside of this region. In this study, researchers looked at different age-groups of a total of 1,182 subjects, ages ranging from 7 to 59 years old, and how several aspects of their lives were affected after the lock-down. Additionally, they recorded the different coping mechanisms adopted due to such sudden changes. The various variables such as learning hours for online classes and self-study, duration of sleep, time spent on fitness and sleep were recorded and analyzed as factors related to mental health. Although the effect on students’ education, social life, physical health, and mental well-being was expected, this research suggests that the public should take necessary measures to prevent psychological problems and improve students’ experiences in and outside of academics, for our current results are not meeting the expectations of the initial government policies. For specific details on the demographics, objectives, and methods of this study, please read the research paper linked [here](https://www.researchgate.net/publication/347935769_COVID-19_and_its_impact_on_education_social_life_and_mental_health_of_students_A_Survey). 
 
 Although the researchers in this study did a phenomenal job at creating, designing, and interpreting their own plots, we decided to ask different questions and explore our own interests by using the same data set while still acknowledging their remarkable findings. Overall, we wondered how has COVID-19 affected mental health among students? How do factors like social connection, sleep and social media use affect student life and class activities? 
 
@@ -43,17 +43,19 @@ Before exploring the data set, it's important to first acknowledge that there is
 
 <br>
 
-<!--html_preserve--><div id="htmlwidget-dd8fa5a57186882a5f11" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dd8fa5a57186882a5f11">{"x":{"data":[{"orientation":"v","width":[0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.900000000000002,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,42,43,44,45,46,50,52,59],"y":[1,2,2,4,6,29,48,48,37,67,58,66,138,211,188,93,44,23,12,12,6,7,4,8,4,10,5,10,4,5,2,4,1,14,1,2,1,1,1,1,1,1],"text":["count:   1<br />Age:  7","count:   2<br />Age:  8","count:   2<br />Age:  9","count:   4<br />Age: 10","count:   6<br />Age: 11","count:  29<br />Age: 12","count:  48<br />Age: 13","count:  48<br />Age: 14","count:  37<br />Age: 15","count:  67<br />Age: 16","count:  58<br />Age: 17","count:  66<br />Age: 18","count: 138<br />Age: 19","count: 211<br />Age: 20","count: 188<br />Age: 21","count:  93<br />Age: 22","count:  44<br />Age: 23","count:  23<br />Age: 24","count:  12<br />Age: 25","count:  12<br />Age: 26","count:   6<br />Age: 27","count:   7<br />Age: 28","count:   4<br />Age: 29","count:   8<br />Age: 30","count:   4<br />Age: 31","count:  10<br />Age: 32","count:   5<br />Age: 33","count:  10<br />Age: 34","count:   4<br />Age: 35","count:   5<br />Age: 36","count:   2<br />Age: 37","count:   4<br />Age: 38","count:   1<br />Age: 39","count:  14<br />Age: 40","count:   1<br />Age: 42","count:   2<br />Age: 43","count:   1<br />Age: 44","count:   1<br />Age: 45","count:   1<br />Age: 46","count:   1<br />Age: 50","count:   1<br />Age: 52","count:   1<br />Age: 59"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"rgba(153,112,171,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Age","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[3.905,62.095],"tickmode":"array","ticktext":["5","10","15","20","25","30","35","40","45","50","55","60"],"tickvals":[5,10,15,20,25,30,35,40,45,50,55,60],"categoryorder":"array","categoryarray":["5","10","15","20","25","30","35","40","45","50","55","60"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-10.55,221.55],"tickmode":"array","ticktext":["0","50","100","150","200"],"tickvals":[0,50,100,150,200],"categoryorder":"array","categoryarray":["0","50","100","150","200"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"a068634cf24f":{"x":{},"type":"bar"}},"cur_data":"a068634cf24f","visdat":{"a068634cf24f":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+<!--html_preserve--><div id="htmlwidget-c313e7fc0e8939e15133" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-c313e7fc0e8939e15133">{"x":{"data":[{"orientation":"v","width":[0.9,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.899999999999999,0.900000000000002,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006,0.900000000000006],"base":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],"x":[7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,42,43,44,45,46,50,52,59],"y":[1,2,2,4,6,29,48,48,37,67,58,66,138,211,188,93,44,23,12,12,6,7,4,8,4,10,5,10,4,5,2,4,1,14,1,2,1,1,1,1,1,1],"text":["count:   1<br />Age:  7","count:   2<br />Age:  8","count:   2<br />Age:  9","count:   4<br />Age: 10","count:   6<br />Age: 11","count:  29<br />Age: 12","count:  48<br />Age: 13","count:  48<br />Age: 14","count:  37<br />Age: 15","count:  67<br />Age: 16","count:  58<br />Age: 17","count:  66<br />Age: 18","count: 138<br />Age: 19","count: 211<br />Age: 20","count: 188<br />Age: 21","count:  93<br />Age: 22","count:  44<br />Age: 23","count:  23<br />Age: 24","count:  12<br />Age: 25","count:  12<br />Age: 26","count:   6<br />Age: 27","count:   7<br />Age: 28","count:   4<br />Age: 29","count:   8<br />Age: 30","count:   4<br />Age: 31","count:  10<br />Age: 32","count:   5<br />Age: 33","count:  10<br />Age: 34","count:   4<br />Age: 35","count:   5<br />Age: 36","count:   2<br />Age: 37","count:   4<br />Age: 38","count:   1<br />Age: 39","count:  14<br />Age: 40","count:   1<br />Age: 42","count:   2<br />Age: 43","count:   1<br />Age: 44","count:   1<br />Age: 45","count:   1<br />Age: 46","count:   1<br />Age: 50","count:   1<br />Age: 52","count:   1<br />Age: 59"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"rgba(153,112,171,1)"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Age","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[3.905,62.095],"tickmode":"array","ticktext":["5","10","15","20","25","30","35","40","45","50","55","60"],"tickvals":[5,10,15,20,25,30,35,40,45,50,55,60],"categoryorder":"array","categoryarray":["5","10","15","20","25","30","35","40","45","50","55","60"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-10.55,221.55],"tickmode":"array","ticktext":["0","50","100","150","200"],"tickvals":[0,50,100,150,200],"categoryorder":"array","categoryarray":["0","50","100","150","200"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"a15b5e174c89":{"x":{},"type":"bar"}},"cur_data":"a15b5e174c89","visdat":{"a15b5e174c89":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
 
-These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:  
+These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:
+
+<br>
  
 <!--html_preserve--><style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#pffrgikrwe .gt_table {
+#dthojzbrto .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -78,7 +80,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-left-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_heading {
+#dthojzbrto .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -90,7 +92,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_title {
+#dthojzbrto .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -100,7 +102,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-bottom-width: 0;
 }
 
-#pffrgikrwe .gt_subtitle {
+#dthojzbrto .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -110,13 +112,13 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-width: 0;
 }
 
-#pffrgikrwe .gt_bottom_border {
+#dthojzbrto .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_col_headings {
+#dthojzbrto .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -131,7 +133,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_col_heading {
+#dthojzbrto .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -151,7 +153,7 @@ These topics of education, social life, and mental health are big ideas to explo
   overflow-x: hidden;
 }
 
-#pffrgikrwe .gt_column_spanner_outer {
+#dthojzbrto .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -163,15 +165,15 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 4px;
 }
 
-#pffrgikrwe .gt_column_spanner_outer:first-child {
+#dthojzbrto .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pffrgikrwe .gt_column_spanner_outer:last-child {
+#dthojzbrto .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pffrgikrwe .gt_column_spanner {
+#dthojzbrto .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -183,7 +185,7 @@ These topics of education, social life, and mental health are big ideas to explo
   width: 100%;
 }
 
-#pffrgikrwe .gt_group_heading {
+#dthojzbrto .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -205,7 +207,7 @@ These topics of education, social life, and mental health are big ideas to explo
   vertical-align: middle;
 }
 
-#pffrgikrwe .gt_empty_group_heading {
+#dthojzbrto .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -220,15 +222,15 @@ These topics of education, social life, and mental health are big ideas to explo
   vertical-align: middle;
 }
 
-#pffrgikrwe .gt_from_md > :first-child {
+#dthojzbrto .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pffrgikrwe .gt_from_md > :last-child {
+#dthojzbrto .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pffrgikrwe .gt_row {
+#dthojzbrto .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -247,7 +249,7 @@ These topics of education, social life, and mental health are big ideas to explo
   overflow-x: hidden;
 }
 
-#pffrgikrwe .gt_stub {
+#dthojzbrto .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -259,7 +261,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-left: 12px;
 }
 
-#pffrgikrwe .gt_summary_row {
+#dthojzbrto .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -269,7 +271,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 5px;
 }
 
-#pffrgikrwe .gt_first_summary_row {
+#dthojzbrto .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -279,7 +281,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_grand_summary_row {
+#dthojzbrto .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -289,7 +291,7 @@ These topics of education, social life, and mental health are big ideas to explo
   padding-right: 5px;
 }
 
-#pffrgikrwe .gt_first_grand_summary_row {
+#dthojzbrto .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -299,11 +301,11 @@ These topics of education, social life, and mental health are big ideas to explo
   border-top-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_striped {
+#dthojzbrto .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pffrgikrwe .gt_table_body {
+#dthojzbrto .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -312,7 +314,7 @@ These topics of education, social life, and mental health are big ideas to explo
   border-bottom-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_footnotes {
+#dthojzbrto .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -326,13 +328,13 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_footnote {
+#dthojzbrto .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#pffrgikrwe .gt_sourcenotes {
+#dthojzbrto .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -346,46 +348,46 @@ These topics of education, social life, and mental health are big ideas to explo
   border-right-color: #D3D3D3;
 }
 
-#pffrgikrwe .gt_sourcenote {
+#dthojzbrto .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#pffrgikrwe .gt_left {
+#dthojzbrto .gt_left {
   text-align: left;
 }
 
-#pffrgikrwe .gt_center {
+#dthojzbrto .gt_center {
   text-align: center;
 }
 
-#pffrgikrwe .gt_right {
+#dthojzbrto .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pffrgikrwe .gt_font_normal {
+#dthojzbrto .gt_font_normal {
   font-weight: normal;
 }
 
-#pffrgikrwe .gt_font_bold {
+#dthojzbrto .gt_font_bold {
   font-weight: bold;
 }
 
-#pffrgikrwe .gt_font_italic {
+#dthojzbrto .gt_font_italic {
   font-style: italic;
 }
 
-#pffrgikrwe .gt_super {
+#dthojzbrto .gt_super {
   font-size: 65%;
 }
 
-#pffrgikrwe .gt_footnote_marks {
+#dthojzbrto .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="pffrgikrwe" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="dthojzbrto" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="3" class="gt_heading gt_title gt_font_normal" style>Respondents by Age Group</th>
@@ -450,8 +452,8 @@ Just as we observed with the previous plot, the number of respondents per region
 
 <br>
 
-<!--html_preserve--><div id="htmlwidget-d61bdb6416ca23c7c160" style="width:672px;height:480px;" class="plotly html-widget"></div>
-<script type="application/json" data-for="htmlwidget-d61bdb6416ca23c7c160">{"x":{"data":[{"orientation":"v","width":[0.9,0.9],"base":[0,0],"x":[1,2],"y":[721,461],"text":["count: 721<br />Region: Delhi-NCR","count: 461<br />Region: Outside Delhi-NCR"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Region","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,2.6],"tickmode":"array","ticktext":["Delhi-NCR","Outside Delhi-NCR"],"tickvals":[1,2],"categoryorder":"array","categoryarray":["Delhi-NCR","Outside Delhi-NCR"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-36.05,757.05],"tickmode":"array","ticktext":["0","200","400","600"],"tickvals":[0,200,400,600],"categoryorder":"array","categoryarray":["0","200","400","600"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"a0684ff7aa":{"x":{},"type":"bar"}},"cur_data":"a0684ff7aa","visdat":{"a0684ff7aa":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
+<!--html_preserve--><div id="htmlwidget-4e628d86896f2487c8ff" style="width:672px;height:480px;" class="plotly html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4e628d86896f2487c8ff">{"x":{"data":[{"orientation":"v","width":[0.9,0.9],"base":[0,0],"x":[1,2],"y":[721,461],"text":["count: 721<br />Region: Delhi-NCR","count: 461<br />Region: Outside Delhi-NCR"],"type":"bar","marker":{"autocolorscale":false,"color":"rgba(231,212,232,1)","line":{"width":1.88976377952756,"color":"transparent"}},"showlegend":false,"xaxis":"x","yaxis":"y","hoverinfo":"text","frame":null}],"layout":{"margin":{"t":43.7625570776256,"r":7.30593607305936,"b":25.5707762557078,"l":28.4931506849315},"font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187},"title":{"text":"Number of Survey Respondents by Region","font":{"color":"rgba(0,0,0,1)","family":"","size":17.5342465753425},"x":0,"xref":"paper"},"xaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[0.4,2.6],"tickmode":"array","ticktext":["Delhi-NCR","Outside Delhi-NCR"],"tickvals":[1,2],"categoryorder":"array","categoryarray":["Delhi-NCR","Outside Delhi-NCR"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"y","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"yaxis":{"domain":[0,1],"automargin":true,"type":"linear","autorange":false,"range":[-36.05,757.05],"tickmode":"array","ticktext":["0","200","400","600"],"tickvals":[0,200,400,600],"categoryorder":"array","categoryarray":["0","200","400","600"],"nticks":null,"ticks":"","tickcolor":null,"ticklen":3.65296803652968,"tickwidth":0,"showticklabels":true,"tickfont":{"color":"rgba(77,77,77,1)","family":"","size":11.689497716895},"tickangle":-0,"showline":false,"linecolor":null,"linewidth":0,"showgrid":false,"gridcolor":null,"gridwidth":0,"zeroline":false,"anchor":"x","title":{"text":"","font":{"color":"rgba(0,0,0,1)","family":"","size":14.6118721461187}},"hoverformat":".2f"},"shapes":[{"type":"rect","fillcolor":null,"line":{"color":null,"width":0,"linetype":[]},"yref":"paper","xref":"paper","x0":0,"x1":1,"y0":0,"y1":1}],"showlegend":false,"legend":{"bgcolor":null,"bordercolor":null,"borderwidth":0,"font":{"color":"rgba(0,0,0,1)","family":"","size":11.689497716895}},"hovermode":"closest","barmode":"relative"},"config":{"doubleClick":"reset","showSendToCloud":false},"source":"A","attrs":{"a15b2be4b90b":{"x":{},"type":"bar"}},"cur_data":"a15b2be4b90b","visdat":{"a15b2be4b90b":["function (y) ","x"]},"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.2,"selected":{"opacity":1},"debounce":0},"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script><!--/html_preserve-->
 
 
 ### **Class Time**
@@ -479,7 +481,7 @@ In the graph below we seek to examine the relationship with between time spent o
 
 <br>
 
-For most of the age categories there may be a slight negative association between hours of sleep and hours of social media use. It appears that while hours of sleep go up, hours of social media use may slightly go down. For the age category 19 years - 23 years, there appears to be no association at all between amount of sleep and amount of social media use. In addition, the association is not clear for any age group, leading us to believe that the results from the COVID-19 dataset that we are using most likely follow the trnd that the 2018 study by Berryman, Ferguson, and Negy suggested, which is that there is limited proof between social media and mental health effects. It is also worth noting that difference in amount of time sleeping is not the best indicator of mental health outcomes, and another measurement like an increase anxiety or depression symptoms may be a better indicator that was not included in the data set that we used.
+For most of the age categories there may be a slight negative association between hours of sleep and hours of social media use. It appears that while hours of sleep go up, hours of social media use may slightly go down. For the age category 19 years - 23 years, there appears to be no association at all between amount of sleep and amount of social media use. In addition, the association is not clear for any age group, leading us to believe that the results from the COVID-19 dataset that we are using most likely follow the trend that the 2018 study by Berryman, Ferguson, and Negy suggested, which is that there is limited proof between social media and mental health effects. It is also worth noting that difference in amount of time sleeping is not the best indicator of mental health outcomes, and another measurement like an increase anxiety or depression symptoms may be a better indicator that was not included in the data set that we used.
 
 <br>
 
@@ -496,7 +498,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#wkdhbalisr .gt_table {
+#cngjpehiqw .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -521,7 +523,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-left-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_heading {
+#cngjpehiqw .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -533,7 +535,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-right-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_title {
+#cngjpehiqw .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -543,7 +545,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-bottom-width: 0;
 }
 
-#wkdhbalisr .gt_subtitle {
+#cngjpehiqw .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -553,13 +555,13 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-top-width: 0;
 }
 
-#wkdhbalisr .gt_bottom_border {
+#cngjpehiqw .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_col_headings {
+#cngjpehiqw .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -574,7 +576,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-right-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_col_heading {
+#cngjpehiqw .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -594,7 +596,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   overflow-x: hidden;
 }
 
-#wkdhbalisr .gt_column_spanner_outer {
+#cngjpehiqw .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -606,15 +608,15 @@ With the pandemic, students are forced to quarantine at home which results in le
   padding-right: 4px;
 }
 
-#wkdhbalisr .gt_column_spanner_outer:first-child {
+#cngjpehiqw .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wkdhbalisr .gt_column_spanner_outer:last-child {
+#cngjpehiqw .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wkdhbalisr .gt_column_spanner {
+#cngjpehiqw .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -626,7 +628,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   width: 100%;
 }
 
-#wkdhbalisr .gt_group_heading {
+#cngjpehiqw .gt_group_heading {
   padding: 8px;
   color: #333333;
   background-color: #FFFFFF;
@@ -648,7 +650,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   vertical-align: middle;
 }
 
-#wkdhbalisr .gt_empty_group_heading {
+#cngjpehiqw .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -663,15 +665,15 @@ With the pandemic, students are forced to quarantine at home which results in le
   vertical-align: middle;
 }
 
-#wkdhbalisr .gt_from_md > :first-child {
+#cngjpehiqw .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wkdhbalisr .gt_from_md > :last-child {
+#cngjpehiqw .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wkdhbalisr .gt_row {
+#cngjpehiqw .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -690,7 +692,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   overflow-x: hidden;
 }
 
-#wkdhbalisr .gt_stub {
+#cngjpehiqw .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -702,7 +704,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   padding-left: 12px;
 }
 
-#wkdhbalisr .gt_summary_row {
+#cngjpehiqw .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -712,7 +714,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   padding-right: 5px;
 }
 
-#wkdhbalisr .gt_first_summary_row {
+#cngjpehiqw .gt_first_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -722,7 +724,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-top-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_grand_summary_row {
+#cngjpehiqw .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -732,7 +734,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   padding-right: 5px;
 }
 
-#wkdhbalisr .gt_first_grand_summary_row {
+#cngjpehiqw .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -742,11 +744,11 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-top-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_striped {
+#cngjpehiqw .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wkdhbalisr .gt_table_body {
+#cngjpehiqw .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -755,7 +757,7 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-bottom-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_footnotes {
+#cngjpehiqw .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -769,13 +771,13 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-right-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_footnote {
+#cngjpehiqw .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding: 4px;
 }
 
-#wkdhbalisr .gt_sourcenotes {
+#cngjpehiqw .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -789,46 +791,46 @@ With the pandemic, students are forced to quarantine at home which results in le
   border-right-color: #D3D3D3;
 }
 
-#wkdhbalisr .gt_sourcenote {
+#cngjpehiqw .gt_sourcenote {
   font-size: 90%;
   padding: 4px;
 }
 
-#wkdhbalisr .gt_left {
+#cngjpehiqw .gt_left {
   text-align: left;
 }
 
-#wkdhbalisr .gt_center {
+#cngjpehiqw .gt_center {
   text-align: center;
 }
 
-#wkdhbalisr .gt_right {
+#cngjpehiqw .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wkdhbalisr .gt_font_normal {
+#cngjpehiqw .gt_font_normal {
   font-weight: normal;
 }
 
-#wkdhbalisr .gt_font_bold {
+#cngjpehiqw .gt_font_bold {
   font-weight: bold;
 }
 
-#wkdhbalisr .gt_font_italic {
+#cngjpehiqw .gt_font_italic {
   font-style: italic;
 }
 
-#wkdhbalisr .gt_super {
+#cngjpehiqw .gt_super {
   font-size: 65%;
 }
 
-#wkdhbalisr .gt_footnote_marks {
+#cngjpehiqw .gt_footnote_marks {
   font-style: italic;
   font-size: 65%;
 }
 </style>
-<div id="wkdhbalisr" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
+<div id="cngjpehiqw" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
   <thead class="gt_header">
     <tr>
       <th colspan="2" class="gt_heading gt_title gt_font_normal" style>What Respondents Miss Most</th>
@@ -883,7 +885,7 @@ We were interested to examine what the survey respondents missed the most during
 
 <br>
 
-It doesn't appear that region impacted what respondents missed. We did anticipate this because, as mentioned, many of the things people missed in this survey were things that we missed. However, because our demographic is inbalanced, we were curious to look more closely at the age groupings we made and see how students responded to this question compared to other in their same age range.
+It doesn't appear that region impacted what respondents missed. We did anticipate this because, as mentioned, many of the things people missed in this survey were things that we missed. However, because our demographic is imbalanced, we were curious to look more closely at the age groupings we made and see how students responded to this question compared to other in their same age range.
 
 <br>
 
