@@ -72,9 +72,8 @@ ggplotly(dataset %>%
         strip.text.x = element_blank()))
 ```
 
-<br>
 
-These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:
+These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:  
  
 ```{r}
 dataset %>% 
@@ -108,7 +107,6 @@ ggplotly(dataset %>%
         strip.text.x = element_blank()))
 ```
 
-<br>
 
 ### **Class Time**
 
@@ -122,9 +120,9 @@ dataset %>%
   ggplot(aes(x = AgeCat,
              y = OnlineClass)) +
   geom_boxplot(fill = "#c2a5cf", color = "#762a83", alpha = .5) +
-  labs(x = "Age", 
+  labs(x = "", 
        y = "", 
-       title = "Comparing Hours Spent in Class Per Day by Age", col = "grey") +
+       title = "Comparing Hours Spent in Class Per Day by Age") +
   theme(panel.grid = element_blank(), 
         plot.title.position= "plot", 
         strip.text.x = element_blank())
@@ -160,8 +158,8 @@ sleepmedia_anim <- dataset %>%
         panel.grid = element_blank(), 
         plot.title.position= "plot", 
         legend.position = "none",
-        plot.title = element_text(size = 12),
-        axis.title.x = element_text(size=10))+
+        plot.title = element_text(size = 14),
+        axis.title.x = element_text(size=12))+
   scale_color_brewer(palette = "PRGn") +
   exit_fade() +
   enter_recolor(color = "aliceblue") +
@@ -201,7 +199,6 @@ dataset %>%
         legend.position = "top")
 ```
 
-<br>
 
 With the pandemic, students are forced to quarantine at home which results in less face-to-face interactions and more time on social media (if it's accessible to them). In the graph below, we used the data set to see if there is a strong relationship between the average time spent on social media per day and whether or not they feel connected to their loved ones. Interestingly, the plot shows that between the different age groups, the results vary, and the average time spent on social media does not exactly determine whether or not there is a connection with loved ones. This can demonstrate that the connections made with loved ones do not merely come from social media interactions, nor are they a result of having to stay home with loved ones everyday. Indeed, that connection can be a result of anything depending on the individual.
 
@@ -235,7 +232,7 @@ dataset %>%
   facet_wrap(vars(`What respondents miss the most`)) +
   scale_fill_manual(values = c("#9970ab","#5aae61")) +
   labs(
-    title = "What Respondents Miss Most by Age Group
+    title = "What Respondents Miss Most
     <span style='color:#9970ab;'>in Dehli</span>
     <span>and 
     <span style='color:#5aae61;'>Outside Dehli</span>",
@@ -394,9 +391,9 @@ ag6 <- dataset %>%
   scale_x_discrete(labels= listlastlabels)
 ```
 
+**What Respondents Miss the Most: Proportionally by Age Group**
 ```{r, fig.width=13, fig.height=11}
-(ag1|ag2) / (ag3|ag4) / (ag5 |ag6) +
-  plot_annotation("What Respondents Miss the Most: Proportionally by Age Group")
+(ag1|ag2) / (ag3|ag4) / (ag5 |ag6)
 ```
 
 ## **Conclusion**
