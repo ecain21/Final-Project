@@ -166,6 +166,7 @@ sleepmedia_anim <- dataset %>%
         axis.title.x = element_text(size=12))+
   scale_color_brewer(palette = "PRGn") +
   exit_fade() +
+  theme_minimal() +
   enter_recolor(color = "aliceblue") +
   exit_recolor(color = "aliceblue")
 
