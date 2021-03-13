@@ -73,7 +73,9 @@ ggplotly(dataset %>%
 ```
 
 
-These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:  
+These topics of education, social life, and mental health are big ideas to explore. In order to get a more accurate picture of the interaction between COVID-19, education, and mental health, we wanted to break the respondents into age groupings that related to anticipated education level. For respondents in the 7 to 23 age range, we can guess what level of schooling they are in based solely on age. However, for older respondents, this is not so simple. Thus, we broke up the older respondents into what we thought of as different life stages. The age groups that we chose, along with the number and proportion of respondents in that age range, are as follows:
+
+<br>
  
 ```{r}
 dataset %>% 
